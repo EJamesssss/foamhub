@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foam Hub</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <img src="images/logo.png">
+        </header>
+    </div>
+
+    <div class="container" id="contents">
+        <section>
+            <h2 class="text-center">Book your reservation now!</h2>
+            <div class="div-caption">
+                <p>Our playground venues include 18 different activities for you to enjoy with your family and friends. Foam Hub offers you an awesome alternative when booking birthday parties and events, with our huge party and cafe areas, fully air-conditioned allowing you to elevate the way you celebrate.
+
+                    See you here!</p>
+            </div>
+            <div class="div-forms">
+                <form action="#">
+                    <div class="row">
+                        <div class="labels">
+                            <label for="fname">First Name:</label>
+                        </div>
+                        <div class="input-areas">
+                            <input type="text"  id="fname" name="fname" placeholder="Enter Full Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="labels">
+                            <label for="lname">Last Name:</label>
+                        </div>
+                        <div class="input-areas">
+                            <input type="text"  id="lname" name="lname" placeholder="Enter Last Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="labels">
+                            <label for="branch">Branch:</label>
+                        </div>
+                        <div class="input-areas">
+                            <select id="branch" name="branch">
+                                <option value="SM North">SM North</option>
+                                <option value="SM Fairview">SM Fairview</option>
+                                <option value="SM North">SM Megamall</option>
+                                <option value="SM North">SM Mall of Asia</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="labels">
+                            <label>Guests</label>
+                        </div>
+                        <div class="input-areas">
+                            <input type="checkbox" id="adult" name="adult" value="adult">
+                            <label for="adult">Adult</label>
+                            <input type="checkbox" id="toddlers" name="toddlers" value="toddlers">
+                            <label for="toddlers">Toddlers</label>
+                            <input type="checkbox" id="Students" name="Students" value="Students">
+                            <label for="Students">Students</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="labels">
+                            <label>Avail Socks?</label>
+                        </div>
+                        <div class="input-areas">
+                            <input type="radio" id="radiobtnYES" name="socks" value="Yes">
+                            <label for="radiobtnYES">Yes</label>
+                            <input type="radio" id="radiobtnNO" name="socks" value="No">
+                            <label for="radiobtnNO">No</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="labels">
+                            <label for="prefdate">Date of visit: </label>
+                        </div>
+                        <div class="input-areas">
+                            <input type="date" id="prefdate" name="prefdate">
+                        </div>
+                    </div>
+                    <div class="row" id="submit-btn">
+                        <div class="input-areas">
+                            <input type="submit">
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

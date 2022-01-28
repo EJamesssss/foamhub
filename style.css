@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+body{
+    margin: 0px;
+    font-size: 1.4rem;
+    background-image: url(images/foam1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+h2 {
+    margin: 0;
+}
+
+#header img{
+    border-radius: 2rem;
+}
+
+section{
+    padding: 1rem 0;
+}
+
+.container{
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+    padding-bottom: .8rem;
+
+
+}
+.container#contents{
+    padding: .5rem;
+    box-shadow: 0rem 0rem .5rem red;
+    background-color: whitesmoke;
+}
+
+.text-center{
+    text-align: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+#header{
+    display:flex;
+    justify-content:center;
+    padding-top: 1rem;
+}
+
+#header img{
+    box-shadow: 0rem 0rem 1rem red;
+}
+
+.div img{
+    width: 12rem;
+    height: 12rem;
+}
+
+.div p{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: .9rem;
+}
+
+input[type=text], select, textarea, radio {
+    width: 100%;
+    padding: .5rem;
+    border: .5rem solid #ccc;
+    border-radius: .3rem;
+    box-sizing: border-box;
+    resize: vertical;
+    }
+
+label{
+    padding: .5rem .5rem .5rem 0;
+    display: inline-block;
+}
+
+input[type=submit]{
+    background-color: orange;
+    color: white;
+    padding: .5rem .8rem;
+    border: none;
+    border-radius: .3rem;
+    cursor: pointer;
+    float: right;
+}
+
+.labels{
+    float: left;
+    width: 25%;
+    margin-top: 1rem;
+    font-family: 'Mochiy Pop P One', sans-serif;
+
+}
+
+.input-areas{
+    float: left;
+    width: 75%;
+    margin-top: 1rem;
+}
+
+.row::after{
+    content: '';
+    display:table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .labels, .input-areas, input[type=submit]{
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+#submit-btn{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: right;
+}
+
+.div-caption{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: .8rem;
+}
+
